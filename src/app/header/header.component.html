@@ -7,11 +7,9 @@
         </mat-menu>
     </nav>-->
 <header>
-    <mat-grid-list cols="1" rowHeight="5rem">
-        <mat-grid-tile><a mat-button routerLink=".">SCHOOL APP</a></mat-grid-tile>
-    </mat-grid-list>
-    <nav>
-        <mat-grid-list cols="4" rowHeight="5rem">
+    <nav class="docs-navbar-header">
+        <mat-grid-list cols="6" rowHeight="4rem">
+            <mat-grid-tile [colspan]="2"><a mat-button routerLink="/">School Name</a></mat-grid-tile>
             <mat-grid-tile><a mat-button routerLink=".">School Calendar</a></mat-grid-tile>
             <mat-grid-tile><a mat-button routerLink=".">Events</a></mat-grid-tile>
             <mat-grid-tile><a mat-button routerLink=".">Connect</a></mat-grid-tile>
